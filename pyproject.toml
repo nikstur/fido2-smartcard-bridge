@@ -1,0 +1,17 @@
+[project]
+name = "fido2-smartcard-bridge"
+version = "0.1.0"
+readme = "README.md"
+license = "MIT"
+dependencies = [
+  "fido2",
+  "pyscard",
+]
+scripts = { fido2-smartcard-bridge = "fido2_smartcard_bridge:main" }
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {}
