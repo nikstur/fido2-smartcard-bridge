@@ -26,7 +26,7 @@
               ./nix/module.nix
             ];
 
-            services.fido2-hid-bridge.package =
+            services.fido2-smartcard-bridge.package =
               let
                 system = pkgs.stdenv.hostPlatform.system;
               in
