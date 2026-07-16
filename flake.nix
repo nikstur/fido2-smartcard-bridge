@@ -23,7 +23,7 @@
           { pkgs, lib, ... }:
           {
             imports = [
-              ./nix/module.nix.nix
+              ./nix/module.nix
             ];
 
             services.fido2-hid-bridge.package =
